@@ -199,7 +199,6 @@ begin
     if kv <> nil then begin
       iter := kv;
       while iter[0] <> #0 do begin
-        printf("key: '%s', ", iter); while( *iter++ );
         Writeln('key: "', iter, '"');
         while iter[0] <> #0 do
           Inc(iter);
