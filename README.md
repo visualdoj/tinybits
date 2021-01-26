@@ -52,5 +52,5 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |_tinyzlib.cpp_|-|zlib inflater||
 |_tinybsearch.cc_|?|Dichotomic binary search|Needs generic routines from fpc 3.2.0?|
 |~~tinybenchmark.hpp~~|x|~~Benchmark code~~|Utilizes non-portable C++ syntax|
-|~~tinydefer.cc~~|x|Defer macro, Go style|Utilizes non-portable C++ syntax|
-|~~tinyfsm.c~~|x|Tight FSM|Utilizes non-portable C++ syntax|
+|~~tinydefer.cc~~|x|~~Defer macro, Go style~~|Utilizes non-portable C++ syntax|
+|~~tinyfsm.c~~|x|~~Tight FSM~~|Utilizes non-portable C++ syntax|
