@@ -15,12 +15,12 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyarc4.pas](dtinyarc4.pas)|✓|ARC4 stream cypher||
 |[dtinyatoi.pas](dtinyatoi.pas)|✓|`atoi()` replacement||
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
+|[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
 |_tinybsearch.c_|-|Dichotomic binary search||
 |_tinybuild.h_|-|Build macros||
 |_tinydebug.h_|-|Debug macros||
 |_tinydir.cc_|-|Recursive directory listing||
 |_tinydixy.c_|-|Small YAML-subset config file parser||
-|_tinydual.sh.bat_|-|Dual bash/batch file||
 |_tinyendian.c_|-|Endianness conversion|FPC already has [SwapEndian](https://www.freepascal.org/docs-html/rtl/system/swapendian.html), [NtoLE](https://www.freepascal.org/docs-html/rtl/system/ntole.html), [NtoBE](https://www.freepascal.org/docs-html/rtl/system/ntobe.html)|
 |_tinyerror.c_|-|Error handling||
 |_tinygc.cc_|-|Garbage collector (C++)||
