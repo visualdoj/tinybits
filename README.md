@@ -16,7 +16,7 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyatoi.pas](dtinyatoi.pas)|✓|`atoi()` replacement||
 |[dtinybsearch.pas](dtinybsearch.pas)|✓|Dichotomic binary search||
 |[dtinybuild.inc](dtinybuild.inc)|✓|Build macros||
-|[dtinydebug.inc](dginydebug.inc)|✓|Debug macros||
+|[dtinydebug.inc](dtinydebug.inc)|✓|Debug macros||
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
 |_tinydir.cc_|-|Recursive directory listing||
