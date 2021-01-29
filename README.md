@@ -16,8 +16,8 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyatoi.pas](dtinyatoi.pas)|✓|`atoi()` replacement||
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[dtinybsearch.pas](dtinybsearch.pas)|✓|Dichotomic binary search||
+|[dtinybuild.h](dtinybuild.h)|✓|Build macros||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
-|_tinybuild.h_|-|Build macros||
 |_tinydebug.h_|-|Debug macros||
 |_tinydir.cc_|-|Recursive directory listing||
 |_tinydixy.c_|-|Small YAML-subset config file parser||
@@ -36,13 +36,12 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |_tinystring.cc_|-|String utilities||
 |_tinytga.c_|-|Forked TGA writer||
 |_tinytty.c_|-|Terminal utilities||
-|_tinyunit.c_|-|Unit-testing||
 |_tinyuniso.cc_|-|.iso/9960 unarchiver||
+|_tinyunit.c_|-|Unit-testing||
 |_tinyuntar.cc_|-|.tar unarchiver||
-|_tinyvariant.cc_|-|Variant class||
+|_tinyvariant.cc_|-|Variant class|See [FPC's Variant](https://wiki.freepascal.org/Variant)|
 |_tinyvbyte.h_|-|VLE encoder/decoder (vbyte)||
 |_tinywav.c_|-|Forked WAV writer||
-|_tinywtf.h_|-|Portable host macros||
 |_tinyzlib.cpp_|-|zlib inflater||
 |_tinybsearch.cc_|?|Dichotomic binary search|Is the generic routines feature from fpc 3.2.0 enough?|
 |_tinytime.cc_|?|Timing utilities||
@@ -52,5 +51,6 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |~~tinylog.h~~|x|~~Logging utilities~~|Utilizes non-portable C/C++ syntax|
 |~~tinypipe.hpp~~|x|~~Chainable pipes~~|Heavy usage of STL and templates|
 |~~tinyprint.cc~~|x|~~Comma-based printer~~|Utilizes non-portable C/C++ syntax|
-|~~tinytodo.cc~~|x|TODO() macro|Both `{$I %DATA%}[1]` and string comparison in compile time are not supported in fpc|
+|~~tinytodo.cc~~|x|~~TODO() macro~~|Both `{$I %DATA%}[1]` and string comparison in compile time are not supported in fpc|
 |~~tinyunzip.cc~~|x|~~.zip unarchiver~~|Depends on `stb_image`|
+|~~tinywtf.h~~|x|~~Portable host macros~~|Almost entirely consists of C++-related stuff|
