@@ -14,12 +14,12 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |:------|:-----|:-----|-------|
 |[dtinyarc4.pas](dtinyarc4.pas)|✓|ARC4 stream cypher||
 |[dtinyatoi.pas](dtinyatoi.pas)|✓|`atoi()` replacement||
-|[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[dtinybsearch.pas](dtinybsearch.pas)|✓|Dichotomic binary search||
 |[dtinybuild.inc](dtinybuild.inc)|✓|Build macros||
+|[dtinydebug.inc](dtinydebug.inc)|✓|Debug macros||
+|[dtinydir.pas](dtinydir.pas)|✓|Recursive directory listing||
+|[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
-|_tinydebug.h_|-|Debug macros||
-|_tinydir.cc_|-|Recursive directory listing||
 |_tinydixy.c_|-|Small YAML-subset config file parser||
 |_tinyendian.c_|-|Endianness conversion|FPC already has [SwapEndian](https://www.freepascal.org/docs-html/rtl/system/swapendian.html), [NtoLE](https://www.freepascal.org/docs-html/rtl/system/ntole.html), [NtoBE](https://www.freepascal.org/docs-html/rtl/system/ntobe.html)|
 |_tinyerror.c_|-|Error handling||
@@ -39,7 +39,7 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |_tinyuniso.cc_|-|.iso/9960 unarchiver||
 |_tinyunit.c_|-|Unit-testing||
 |_tinyuntar.cc_|-|.tar unarchiver||
-|_tinyvariant.cc_|-|Variant class|See [FPC's Variant](https://wiki.freepascal.org/Variant)|
+|_tinyvariant.cc_|-|Variant class|See also [FPC's Variant](https://wiki.freepascal.org/Variant)|
 |_tinyvbyte.h_|-|VLE encoder/decoder (vbyte)||
 |_tinywav.c_|-|Forked WAV writer||
 |_tinyzlib.cpp_|-|zlib inflater||
