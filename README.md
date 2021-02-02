@@ -18,9 +18,9 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinybuild.inc](dtinybuild.inc)|✓|Build macros||
 |[dtinydebug.inc](dtinydebug.inc)|✓|Debug macros||
 |[dtinydir.pas](dtinydir.pas)|✓|Recursive directory listing||
+|[dtinydixy.pas](dtinydixy.pas)|✓|Small YAML-subset config file parser||
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
-|_tinydixy.c_|-|Small YAML-subset config file parser||
 |_tinyendian.c_|-|Endianness conversion|FPC already has [SwapEndian](https://www.freepascal.org/docs-html/rtl/system/swapendian.html), [NtoLE](https://www.freepascal.org/docs-html/rtl/system/ntole.html), [NtoBE](https://www.freepascal.org/docs-html/rtl/system/ntobe.html)|
 |_tinyerror.c_|-|Error handling||
 |_tinygc.cc_|-|Garbage collector (C++)||
