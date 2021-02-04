@@ -20,9 +20,9 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinydir.pas](dtinydir.pas)|✓|Recursive directory listing||
 |[dtinydixy.pas](dtinydixy.pas)|✓|Small YAML-subset config file parser||
 |[dtinyendian.pas](dtinyendian.pas)|✓|Endianness conversion|FPC already has [SwapEndian](https://www.freepascal.org/docs-html/rtl/system/swapendian.html), [NtoLE](https://www.freepascal.org/docs-html/rtl/system/ntole.html), [NtoBE](https://www.freepascal.org/docs-html/rtl/system/ntobe.html)|
+|[dtinyerror.pas](dtinyerror.pas)|✓|Error handling||
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
-|_tinyerror.c_|-|Error handling||
 |_tinygc.cc_|-|Garbage collector (C++)||
 |_tinyhexbase.c_|-|Simple binary to ascii encoder||
 |_tinyhexdump.c_|-|Hexdump viewer||
