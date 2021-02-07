@@ -22,10 +22,10 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyendian.pas](dtinyendian.pas)|✓|Endianness conversion|FPC already has [SwapEndian](https://www.freepascal.org/docs-html/rtl/system/swapendian.html), [NtoLE](https://www.freepascal.org/docs-html/rtl/system/ntole.html), [NtoBE](https://www.freepascal.org/docs-html/rtl/system/ntobe.html)|
 |[dtinyerror.pas](dtinyerror.pas)|✓|Error handling||
 |[dtinyhexbase.pas](dtinyhexbase.pas)|✓|Simple binary to ascii encoder||
+|[dtinyhexdump.pas](dtinyhexdump.pas)|✓|Hexdump viewer||
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
 |_tinygc.cc_|-|Garbage collector (C++)||
-|_tinyhexdump.c_|-|Hexdump viewer||
 |_tinyhuman.hpp_|-|De/humanized numbers||
 |_tinyjson5.c_|-|JSON5/SJSON/JSON parser/writer||
 |_tinylogger.hpp_|-|Session logger||
