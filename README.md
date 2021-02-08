@@ -23,10 +23,10 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyerror.pas](dtinyerror.pas)|✓|Error handling||
 |[dtinyhexbase.pas](dtinyhexbase.pas)|✓|Simple binary to ascii encoder||
 |[dtinyhexdump.pas](dtinyhexdump.pas)|✓|Hexdump viewer||
+|[dtinyhuman.pas](dtinyhuman.pas)|✓|De/humanized numbers||
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
 |_tinygc.cc_|-|Garbage collector (C++)||
-|_tinyhuman.hpp_|-|De/humanized numbers||
 |_tinyjson5.c_|-|JSON5/SJSON/JSON parser/writer||
 |_tinylogger.hpp_|-|Session logger||
 |_tinymatch.c_|-|Wildcard/pattern matching||
