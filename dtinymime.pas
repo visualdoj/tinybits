@@ -11,11 +11,11 @@ unit dtinymime;
 
 interface
 
-function tinymime(Buf: PAnsiChar; Len: SizeUInt): PAnsiChar;
+function tinymime(Buf: PByte; Len: SizeUInt): PAnsiChar;
 
 implementation
 
-function _tinymime(Buf: PByte; Len: SizeUInt): PAnsiChar; inline;
+function tinymime(Buf: PByte; Len: SizeUInt): PAnsiChar;
 begin
   if (buf = nil) or (Len <= 60) then
       Exit(''); // invalid
@@ -341,11 +341,6 @@ begin
     Exit('msi');
 
   Exit(''); // invalid
-end;
-
-function tinymime(Buf: PAnsiChar; Len: SizeUInt): PAnsiChar;
-begin
-  Exit(_tinymime(PByte(Buf), Len));
 end;
 
 {
