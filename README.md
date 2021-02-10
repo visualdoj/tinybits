@@ -27,10 +27,10 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyini.pas](dtinyini.pas)|✓|Config parser (ini+)||
 |[dtinylogger.pas](dtinylogger.pas)|✓|Session logger||
 |[dtinymatch.pas](dtinymatch.pas)|✓|Wildcard/pattern matching||
+|[dtinymime.pas](dtinymime.pas)|✓|MIME/file-type detection||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
 |_tinygc.cc_|-|Garbage collector (C++)||
 |_tinyjson5.c_|-|JSON5/SJSON/JSON parser/writer||
-|_tinymime.c_|-|MIME/file-type detection||
 |_tinypulse.c_|-|Digital pulses||
 |_tinyroman.cc_|-|Integer to roman literals||
 |_tinystring.cc_|-|String utilities||
