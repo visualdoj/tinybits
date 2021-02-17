@@ -33,9 +33,9 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyroman.pas](dtinyroman.pas)|✓|Integer to roman literals||
 |[dtinystring.pas](dtinystring.pas)|✓|String utilities||
 |[dtinytga.pas](dtinytga.pas)|✓|TGA writer||
+|[dtinytty.pas](dtinytty.pas)|✓|Terminal utilities||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
 |_tinyjson5.c_|-|JSON5/SJSON/JSON parser/writer||
-|_tinytty.c_|-|Terminal utilities||
 |_tinyuniso.cc_|-|.iso/9960 unarchiver||
 |_tinyunit.c_|-|Unit-testing||
 |_tinyuntar.cc_|-|.tar unarchiver||
