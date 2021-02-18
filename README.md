@@ -10,11 +10,12 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 
 `✓` - done, `-` - not yet started, `x` - will not be ported, `=` - left unchanged
 
-|Snippet|Status|Domain|Comment|
+|Snippet|Status|Domain|Notes|
 |:------|:-----|:-----|-------|
 |[dtinyarc4.pas](dtinyarc4.pas)|✓|ARC4 stream cypher||
 |[dtinyatoi.pas](dtinyatoi.pas)|✓|`atoi()` replacement||
 |[dtinybsearch.pas](dtinybsearch.pas)|✓|Dichotomic binary search||
+|[dtinybsearch_generic.pas](dtinybsearch_generic.pas)|✓|Dichotomic binary search||
 |[dtinybuild.inc](dtinybuild.inc)|✓|Build macros||
 |[dtinydebug.inc](dtinydebug.inc)|✓|Debug macros||
 |[dtinydir.pas](dtinydir.pas)|✓|Recursive directory listing||
@@ -43,7 +44,6 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |_tinyuntar.cc_|-|.tar unarchiver||
 |_tinywav.c_|-|Forked WAV writer||
 |_tinyzlib.cpp_|-|zlib inflater||
-|_tinybsearch.cc_|?|Dichotomic binary search|Is the generic routines feature from fpc 3.2.0 enough?|
 |_tinytime.cc_|?|Timing utilities||
 |~~tinybenchmark.hpp~~|x|~~Benchmark code~~|Utilizes non-portable C/C++ syntax|
 |~~tinydefer.cc~~|x|~~Defer macro, Go style~~|Utilizes non-portable C/C++ syntax|
