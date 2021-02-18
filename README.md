@@ -35,9 +35,9 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinytga.pas](dtinytga.pas)|✓|TGA writer||
 |[dtinytty.pas](dtinytty.pas)|✓|Terminal utilities||
 |[tinydual.sh.bat](tinydual.sh.bat)|=|Dual bash/batch file||
+|[tinyunit.m4](tinyunit.m4)|✓|Unit-testing|Need `m4` preprocessing, e.g. `m4 test_tinyunit.pas4 >t.pas && fpc t.pas`|
 |_tinyjson5.c_|-|JSON5/SJSON/JSON parser/writer||
 |_tinyuniso.cc_|-|.iso/9960 unarchiver||
-|_tinyunit.c_|-|Unit-testing||
 |_tinyuntar.cc_|-|.tar unarchiver||
 |_tinyvariant.cc_|-|Variant class|See also [FPC's Variant](https://wiki.freepascal.org/Variant)|
 |_tinyvbyte.h_|-|VLE encoder/decoder (vbyte)||

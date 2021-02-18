@@ -1,0 +1,22 @@
+{$MODE FPC}
+{$MODESWITCH DEFAULTPARAMETERS}
+{$MODESWITCH OUT}
+{$MODESWITCH RESULT}
+
+include(../tinyunit.m4)
+// fallback to compile without m4: {$I ../tinyunit.m4}
+
+begin
+  // orphan test
+  test(1<2);
+  // grouped tests
+  suite('grouped tests 1/1');
+  test(1<2);
+  test(1<2);
+
+  suite('grouped tests 1/2');
+  test(1<2);
+  test(1<2);
+
+  summary;
+end.
