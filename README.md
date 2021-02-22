@@ -34,6 +34,7 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinyroman.pas](dtinyroman.pas)|✓|Integer to roman literals||
 |[dtinystring.pas](dtinystring.pas)|✓|String utilities||
 |[dtinytga.pas](dtinytga.pas)|✓|TGA writer||
+|[dtinytime.pas](dtinytime.pas)|✓|Timing utilities||
 |[dtinytty.pas](dtinytty.pas)|✓|Terminal utilities||
 |[dtinyvariant.pas](dtinyvariant.pas)|✓|Variant class|See also [FPC's Variant](https://wiki.freepascal.org/Variant)|
 |[dtinyvbyte.pas](dtinyvbyte.pas)|✓|VLE encoder/decoder (vbyte)||
@@ -44,7 +45,6 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |_tinyuniso.cc_|-|.iso/9960 unarchiver||
 |_tinyuntar.cc_|-|.tar unarchiver||
 |_tinyzlib.cpp_|-|zlib inflater||
-|_tinytime.cc_|?|Timing utilities||
 |~~tinybenchmark.hpp~~|x|~~Benchmark code~~|Utilizes non-portable C/C++ syntax|
 |~~tinydefer.cc~~|x|~~Defer macro, Go style~~|Utilizes non-portable C/C++ syntax|
 |~~tinyfsm.c~~|x|~~Tight FSM~~|Utilizes non-portable C/C++ syntax|
