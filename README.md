@@ -36,6 +36,7 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[dtinytga.pas](dtinytga.pas)|✓|TGA writer||
 |[dtinytime.pas](dtinytime.pas)|✓|Timing utilities||
 |[dtinytty.pas](dtinytty.pas)|✓|Terminal utilities||
+|[dtinyuntar.pas](dtinyuntar.pas)|✓|.tar unarchiver||
 |[dtinyvariant.pas](dtinyvariant.pas)|✓|Variant class|See also [FPC's Variant](https://wiki.freepascal.org/Variant)|
 |[dtinyvbyte.pas](dtinyvbyte.pas)|✓|VLE encoder/decoder (vbyte)||
 |[dtinywav.pas](dtinywav.pas)|✓|Forked WAV writer||
@@ -43,7 +44,6 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 |[tinyunit.m4](tinyunit.m4)|✓|Unit-testing|Need `m4` preprocessing, e.g. `m4 test_tinyunit.pas4 >t.pas && fpc t.pas`|
 |_tinyjson5.c_|-|JSON5/SJSON/JSON parser/writer||
 |_tinyuniso.cc_|-|.iso/9960 unarchiver||
-|_tinyuntar.cc_|-|.tar unarchiver||
 |_tinyzlib.cpp_|-|zlib inflater||
 |~~tinybenchmark.hpp~~|x|~~Benchmark code~~|Utilizes non-portable C/C++ syntax|
 |~~tinydefer.cc~~|x|~~Defer macro, Go style~~|Utilizes non-portable C/C++ syntax|
