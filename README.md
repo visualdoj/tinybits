@@ -6,7 +6,7 @@ Pascal port of [tinybits](https://github.com/r-lyeh/tinybits).
 - [x] Cross-platform.
 - [x] Public Domain.
 
-## satus
+## status
 
 `✓` - done, `-` - not yet started, `x` - will not be ported, `=` - left unchanged
 
